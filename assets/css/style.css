@@ -1,0 +1,73 @@
+body {
+    background-color: #efefed;
+}
+
+.jumbotron {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Playfair Display', serif;
+    background: url("../images/jumbotron-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    color: #efefed;
+    font-size: 68px;
+}
+
+.firstRow {
+    background: url("../images/row-background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    font-family: 'Playfair Display', serif;
+    border-radius: 20px;
+}
+
+#add-cities {
+    background-color: #5c5f5e;
+    margin: 20px;
+    margin-left: 410px;
+    padding: 5px 20px;
+    color: #efefed;
+    font-family: 'Playfair Display', serif;
+    border: solid #5c5f5e;
+}
+
+#add-cities:hover {
+    background-color: #343434;
+    color: white;
+}
+
+#city-input {
+    padding: 5px;
+    width: 160px;
+}
+
+#buttons-view {
+    margin: 10px;
+    margin-left: 60px;
+}
+
+.city {
+    margin: 5px;
+    width: 150px;
+    padding: 10px;
+}
+
+.city:hover {
+    margin: 5px;
+    width: 150px;
+    background-color: #6daf91;
+    color: #00ff14;
+}
+
+.item {
+    float: left;
+    color: white;
+}
