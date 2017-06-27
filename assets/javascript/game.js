@@ -45,6 +45,7 @@ $(document).ready(function () {
     // on click function that enables the ajax call to get the giphy images
 
     $("#buttons-view").on("click", ".city", function (event) {
+
         var city = $(this).attr("data-name");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + city + "&api_key=dc6zaTOxFJmzC&limit=10&rating=PG";
         $.ajax({
@@ -65,14 +66,10 @@ $(document).ready(function () {
                 //dynamically changes the css of buttons that are clicked
 
                 $('.item').css("margin", "20px");
-                $('.item').css("border", "solid black");
-                $('.item').css({
-                    'width': '180px',
-                    'height': '180px'
-                });
+
 
                 //add more height to class of firstRow 
-                $('.firstRow').css("height", "+=30px");
+                $('.firstRow').css("height", "+=50px");
 
             }
 
