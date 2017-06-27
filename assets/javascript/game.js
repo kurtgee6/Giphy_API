@@ -69,7 +69,7 @@ $(document).ready(function () {
 
 
                 //add more height to class of firstRow 
-                $('.firstRow').css("height", "+=50px");
+                $('.firstRow').css("height", "+=20px");
 
             }
 
