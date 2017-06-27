@@ -74,6 +74,17 @@ $(document).ready(function () {
             }
 
         });
+
+
+        //have not created the still and animate to pause and play the gifs
+
+        // to create this...I would dynamically create a data-attribute to default "still" once the giphy is added 
+        // Once that is done..I would create an if statement 
+        //so if giphy is clicked, the data-attribute would be equal to animate
+        //else if it is animated, go back to data attribute still 
+
+
+
     });
 
     renderButtons();
